@@ -32,7 +32,7 @@
           </header>
     
           <!-- Navigation -->
-          <nav class="nav">
+          <!-- <nav class="nav">
             <ul>
               <li><a href="#New-in">New in</a></li>
               <li><a href="#Special-offer">Special Offer</a></li>
@@ -40,7 +40,7 @@
               <li><a href="#Outdoor-toys">Outdoor Toys</a></li>
               <li><a href="#Indoor-toys">Indoor toys</a></li>
             </ul>
-          </nav>
+          </nav> -->
     
           <!-- Main Section -->
           <main class="mainSection">
@@ -48,11 +48,12 @@
                 <h1 class="wallet-title">Wallet</h1>
                 <div class="wallet">
                   <div class="Balance">
-                    <h4>Balance</h4>
-                    <p>QAR 100</p>
+                    <label for="readonlyField">Balance:</label>
+                    <input type="text" id="readonlyField" name="readonlyField" value="$100" readonly>
                     <br>
-                    <div class="button-logo">
-                    <button>Top-up</button>
+                    <Button type="submit" class="Button">
+                    <i class="Top-up" id="add-money">Top-up</i>
+                    </Button>
                   </div>
                 </div>
 
