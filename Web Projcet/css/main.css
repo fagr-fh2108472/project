@@ -1,0 +1,289 @@
+
+body{
+display: grid;
+grid-template-rows: auto 1fr auto;
+height: 100vh; 
+margin: 2 rem;
+}
+
+header {
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows: first for upper section, second for lower section */
+}
+
+.upper {
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding to create space around elements */
+}
+
+.lower-header {
+  grid-row: 2/3;
+  background-color: gray;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+.searchbox {
+  width: 70rem;
+  box-sizing: border-box;
+}
+.loginlike {
+  display: flex;
+  align-items: center;
+}
+
+.loginpic, .wishlist {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px; /* Add margin between the login and wishlist icons */
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li {
+  margin: 0;
+}
+
+.main-menu a {
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.main-menu a:hover {
+  background-color: rgb(181, 240, 234);
+}
+
+main{
+   
+    grid-row: 2/2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .moving-pics{
+      padding-top: 1rem;
+       display: flex;
+    justify-content: center; 
+    align-items: center; 
+  
+    }
+    .moving-pics img {
+      transition: transform 0.3s ease; /* Smooth transition for transform property */
+    }
+    
+    .moving-pics img:hover {
+      transform: scale(1.1); /* Enlarge the image by 10% when hovered over */
+    }
+    .toy-pics {
+      
+      display: grid;
+      grid-template-rows: auto auto;
+    }
+    
+    .hot {
+      padding: 0.5rem;
+      justify-self: center; /* Horizontally center-align the "hot" image */
+    }
+    .con {
+      text-align: center;
+  }
+  
+  .button-style {
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: #f4c92f;
+      border: none;
+      margin-top: 10px;
+  }
+  
+  .fa-solid.fa-cart-shopping {
+      color: rgb(243, 236, 187);
+      font-size: 20px;
+      width: 11rem; 
+  }
+    
+    .sample-toys {
+      background-color: rgb(243, 236, 187);
+      /* outline: solid red; */
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-template-rows: auto;
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+    
+    .sample-toys img {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       border-radius: 10%;
+      transition: transform 0.3s ease;
+    }
+    .sample-toys img:hover {
+      transform: scale(1.15); /* Enlarge the image by 5% when hovered over */
+    }
+    
+    figcaption {
+      text-align: center; /* Center-align the caption */
+      margin-top: 0.5rem; /* Add some spacing between the image and the caption */
+    }
+    .title{
+      text-align: center;
+      font-size: xx-large;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ensure full viewport height */
+  }
+  
+  .game {
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    background-image: url('images/ray.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0; 
+    padding-bottom: 0.5rem; 
+  }
+ .GAM{
+
+  /* outline: solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ .TRIVIA{
+  padding: 0.3rem;
+ }
+
+
+ }
+  .trivia {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+  }
+  
+  .question {
+      font-size: large;
+      margin-bottom: 20px;
+  }
+  
+  .answers {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      padding: 0.1rem;
+  }
+  
+  .option {
+      padding: 8px 10px;
+      font-size: 14px;
+      background-color: rgb(239, 228, 145);
+      color: #000000;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+  }
+  
+  .option:hover {
+      background-color: #dfb237;
+  }
+  
+  #feedback {
+      margin-top: 20px;
+  }
+  
+    
+    }
+    .randoms {
+      background-color: rgb(243, 236, 187);
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding-left: 1rem;
+    }
+    
+    .location,
+    .collab {
+      border-radius: 10%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transition: transform 0.3s ease; /* Smooth transition for transform property */
+    }
+    
+    .location:hover,
+    .collab:hover {
+      transform: scale(1.05); /* Enlarge the image by 5% when hovered over */
+    }
+    
+    .head1,
+    .head2 {
+      justify-self: center;
+      align-self: center;
+      padding-left: 8rem;
+    }
+    
+
+    #root {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+  }
+
+footer{
+  grid-row: 3/3;
+  background-color: rgb(221, 226, 226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0;
+  
+  .logo2{
+    border-radius: 50%;
+   
+  }
+  .t1 {
+    margin-top: 0.5rem; /* Adjust as needed */
+  }
+}
+ 

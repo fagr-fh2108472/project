@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 160;
+}
+header{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#groundPic{
+    background-image: url('images/background_cover.jpg');
+    background-size: cover;
+    width: 100%;
+    position: relative;
+   
+    
+}

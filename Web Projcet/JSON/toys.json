@@ -1,0 +1,182 @@
+[
+    {
+      "product_name": "Remote Control Car",
+      "id": "TOY001",
+      "category": "Boys",
+      "price": 39.99,
+      "quantity": 50,
+      "description": "A fast and sleek remote control car, perfect for racing and outdoor fun.",
+      "img": "images/t1.jpg"
+    },
+    {
+      "product_name": "Dollhouse",
+      "id": "TOY002",
+      "category": "Girls",
+      "price": 59.99,
+      "quantity": 30,
+      "description": "A beautifully crafted dollhouse with furniture and accessories, fostering imaginative play.",
+      "img": "images/t2.jpeg"
+    },
+    {
+      "product_name": "Board Game Set",
+      "id": "TOY003",
+      "category": "Indoor",
+      "price": 24.99,
+      "quantity": 100,
+      "description": "A collection of classic board games for family entertainment on rainy days or indoor gatherings.",
+      "img": "images/t3.webp"
+    },
+    {
+      "product_name": "Soccer Ball",
+      "id": "TOY004",
+      "category": "Outdoor",
+      "price": 19.99,
+      "quantity": 75,
+      "description": "A durable soccer ball for playing with friends in the park or on the field.",
+      "img": "images/t4.jpg"
+    },
+    {
+      "product_name": "STEM Learning Kit",
+      "id": "TOY005",
+      "category": "Educational",
+      "price": 29.99,
+      "quantity": 60,
+      "description": "A science, technology, engineering, and math (STEM) learning kit to spark curiosity and creativity.",
+      "img": "images/t5.jpeg"
+    },{
+        "product_name": "Action Figure Set",
+        "id": "TOY006",
+        "category": "Boys",
+        "price": 19.99,
+        "quantity": 40,
+        "description": "A set of action figures featuring superheroes and villains for epic battles and imaginative play.",
+        "img": "images/t6.jpeg"
+      },
+      {
+        "product_name": "Fashion Doll Set",
+        "id": "TOY007",
+        "category": "Girls",
+        "price": 29.99,
+        "quantity": 50,
+        "description": "A collection of fashion dolls with stylish outfits and accessories for fashion design and role-playing.",
+        "img": "images/t7.jpeg"
+      },
+      {
+        "product_name": "Art and Craft Kit",
+        "id": "TOY008",
+        "category": "Indoor",
+        "price": 14.99,
+        "quantity": 80,
+        "description": "A creative art and craft kit with supplies for painting, drawing, and crafting various projects.",
+        "img": "images/t8.jpg"
+      },
+      {
+        "product_name": "Swing Set",
+        "id": "TOY009",
+        "category": "Outdoor",
+        "price": 129.99,
+        "quantity": 20,
+        "description": "A sturdy outdoor swing set with multiple swings for hours of fun in the backyard or playground.",
+        "img": "images/t9.jpeg"
+      },
+      {
+        "product_name": "Alphabet and Number Puzzle",
+        "id": "TOY010",
+        "category": "Educational",
+        "price": 12.99,
+        "quantity": 60,
+        "description": "A wooden puzzle set featuring letters and numbers to help children learn the alphabet and counting.",
+        "img": "images/t10.jpg"
+      },
+      {
+        "product_name": "Remote Control Helicopter",
+        "id": "TOY011",
+        "category": "Boys",
+        "price": 49.99,
+        "quantity": 30,
+        "description": "A high-performance remote control helicopter for thrilling aerial adventures and precision flying.",
+        "img": "images/t11.jpg"
+      },
+      {
+        "product_name": "Barbie Dreamtopia Rainbow Lights Mermaid Doll",
+        "id": "TOY012",
+        "category": "Girls",
+        "price": 24.99,
+        "quantity": 40,
+        "description": "A Barbie mermaid doll with colorful lights and sounds, swimming in imaginary underwater worlds.",
+        "img": "images/t12.jpeg"
+      },
+      {
+        "product_name": "Science Experiment Kit",
+        "id": "TOY013",
+        "category": "Indoor",
+        "price": 34.99,
+        "quantity": 35,
+        "description": "A science experiment kit with lab equipment and instructions for conducting fascinating experiments at home.",
+        "img": "images/t13.jpg"
+      },
+      {
+        "product_name": "Basketball Hoop Set",
+        "id": "TOY014",
+        "category": "Outdoor",
+        "price": 59.99,
+        "quantity": 25,
+        "description": "A portable basketball hoop set for practicing basketball skills and friendly competitions outdoors.",
+        "img": "images/t14.jpeg"
+      },
+      {
+        "product_name": "Wooden Building Blocks",
+        "id": "TOY015",
+        "category": "Educational",
+        "price": 17.99,
+        "quantity": 50,
+        "description": "A set of wooden building blocks for developing fine motor skills and creative thinking through construction play.",
+        "img": "images/t15.jpg"
+      },
+      {
+        "product_name": "Transforming Robot Toy",
+        "id": "TOY016",
+        "category": "Boys",
+        "price": 39.99,
+        "quantity": 30,
+        "description": "A robot toy that transforms into different vehicles, providing endless entertainment and excitement.",
+        "img": "images/t16.jpg"
+      },
+      {
+        "product_name": "Disney Princess Doll Set",
+        "id": "TOY017",
+        "category": "Girls",
+        "price": 39.99,
+        "quantity": 25,
+        "description": "A set of Disney princess dolls featuring beloved characters for royal adventures and storytelling.",
+        "img": "images/t17.jpeg"
+      },
+      {
+        "product_name": "Chess Set",
+        "id": "TOY018",
+        "category": "Indoor",
+        "price": 29.99,
+        "quantity": 45,
+        "description": "A classic chess set for strategic gameplay and intellectual challenges for players of all ages.",
+        "img": "images/t18.jpeg"
+      },
+      {
+        "product_name": "Soccer Goal Set",
+        "id": "TOY019",
+        "category": "Outdoor",
+        "price": 69.99,
+        "quantity": 20,
+        "description": "A soccer goal set with a ball for practicing shooting and scoring goals in the backyard or park.",
+        "img": "images/t19.jpg"
+      },
+      {
+        "product_name": "Solar System Model Kit",
+        "id": "TOY020",
+        "category": "Educational",
+        "price": 24.99,
+        "quantity": 30,
+        "description": "A model kit of the solar system, teaching children about planets, moons, and space exploration.",
+        "img": "images/t20.jpg"
+      }
+  ]
+  
