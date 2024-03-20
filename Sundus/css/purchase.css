@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkgray;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    .main-item {
+        border: 2px solid #d1d4c5;
+        padding: 1rem;
+        max-width: 500px; 
+        margin: 0 auto;
+        
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3 {
+                margin: 1rem;
+                font-size: 1.8rem;
+                color: #333;
+                text-align: center;
+            }
+    
+            .item-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1rem;
+                gap: 5rem;
+    
+                .item-left {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-right: 1rem; 
+                    p{
+                        border: 2px solid #d1d4c5;
+                          border-style: dotted;
+                          padding: 1rem;
+                    }
+                    img {
+                        width: 10rem;
+                    }
+                }
+                .item-right{
+                    .price {
+                        font-size: 1.2rem;
+                        padding: 0.5rem;
+                        width: 6rem; 
+                        text-align: center; 
+                        border: 1px solid #ccc; 
+                    }
+                    .counter {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 0.5rem;
+                        button {
+                            background-color: #f4f4f4;
+                            border: 1px solid #ccc;
+                            color: #333;
+                            cursor: pointer;
+                            padding: 0.5rem;
+                            font-size: 1rem;
+                        }
+                        .quantity {
+                            margin: 0 0.5rem;
+                            font-size: 1.2rem;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+
+.buy {
+    margin-top: 2rem;
+    text-align: center;
+    button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
