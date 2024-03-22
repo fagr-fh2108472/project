@@ -7,64 +7,93 @@
 
 html {
     height: 100%;
+    font-family: cursive;
 }
 
 h1 {
     padding: 2rem;
     text-align: center;
     place-items: center;
+    font-size: 400%;
 }
 
 button {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    color: var(--white-Color);
-    background: var(--button-bgcolor);
+    background: var(--button-color);
     border: none;
-    padding: 0.4rem;
-    border-radius: 5%;
+    padding: 0.6rem;
+    border-radius: 10%;
+    height: 3.5rem;
+    font-size: 2rem;
 }
 
 button:hover {
-    background-color: rgb(0, 145, 194);
+    background-color: var(--button-bgcolor) ;
 }
 
+:root {
+    --textfield-bgColor: #fffef8;
+    --bgcolor: #f9f5de;
+    --button-color: #fbde88;
+    --button-bgcolor: #f3bc18;
+}
+
+html {
+    --s: 150px; /* control the size */
+    background:
+      linear-gradient(135deg,#ff0b0b00 18.75%,#fcf2be 0 31.25%,#0000 0),
+      repeating-linear-gradient(45deg,#fcf2be -6.25% 6.25%,#f9df90 0 18.75%);
+    background-size: var(--s) var(--s); 
+}
+  
 body {
-    width: 60%;
+    width: 70%;
     margin: auto;
-    height: 50%;
-    line-height: 1.5rem;
-    display: grid;
-    justify-content: center; 
-    align-items: center;
+    height: 40%;
+    line-height: 6rem;
     font-size: clamp(1rem, 1vw, 2rem);
-
-    header {
-        text-align: center;
-        img {
-            height: 35%;
-            width: 35%;
-        }
-    }
-
     main {
+        padding: 3rem;
         form {
+            border-radius: 5%;
+            text-align: center;
+            img {
+                height: 20rem;
+                width: 20rem;
+            }
+            background-color: var(--bgcolor);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* place-items: center;
+            text-align: center; */
+            padding: 5rem;
             fieldset{
                 border: none;
                 padding: 3rem;
                 div{
-                    padding: 0.4rem;
+                    padding: 0.9rem;
                     label{
-                        font-size: x-large;
-                        font-weight: bold;
+                        padding: 2rem;
+                        font-size: 200%;
+                    }
+                    input{
+                        border-radius: 5%;
+                        height: 2.5rem;
+                        font-size: 100%;
+                        padding: 0.5rem;
+                        font-family: cursive;
+                        text-align: center;
+                        background-color: var(--textfield-bgColor) ;
                     }
                 }
                 
             }
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            place-items: center;
-            text-align: center;
-            padding: 5rem;
+            
         }
     }
+
+}
+
+/* handle different screen sizes */
+@media screen and (min-width: 376px) {
 
 }
