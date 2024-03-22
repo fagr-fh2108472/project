@@ -6,57 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wallet</title>
   <link rel="stylesheet" href="./css/wallet.css">
+  <script src="https://kit.fontawesome.com/431e47e328.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container">
-  <header class="header">
-    <img src="imgs/toyskylogo.jpg" alt="Logo" class="mainLogo">
-    <div class="search-container">
-      <input type="text" class="search-input" placeholder="Search...">
-      <button class="search-button">Search</button>
-    </div>
-    <div class="logos-container">
-      <div class="logos">
-        <img src="imgs/login.png" alt="login-register" class="logo">
-        <div class="label">Login</div>
-      </div>
-      <div class="logos">
-        <img src="imgs/heart.png" alt="wishlist" class="logo">
-        <div class="label">Wishlist</div>
-      </div>
-      <div class="logos">
-        <img src="imgs/carts.png" alt="cart" class="logo">
-        <div class="label">Cart</div>
-      </div>
-    </div>
-  </header>
+<body>
+  <div class="container">
+    <header class="header">
+      <button><i class="fa-solid fa-reply"></i></button>
+      <img src="imgs/toyskylogo-removebg-preview.png" alt="Logo" class="mainLogo">
+    </header>
 
-  <!-- Navigation -->
-  <!-- <nav class="nav">
-            <ul>
-              <li><a href="#New-in">New in</a></li>
-              <li><a href="#Special-offer">Special Offer</a></li>
-              <li><a href="#Educational">Educational</a></li>
-              <li><a href="#Outdoor-toys">Outdoor Toys</a></li>
-              <li><a href="#Indoor-toys">Indoor toys</a></li>
-            </ul>
-          </nav> -->
-
-  <!-- Main Section -->
-  <main class="mainSection">
-    <section class="wallet-section">
-      <h1 class="wallet-title">Wallet</h1>
-      <div class="wallet">
-        <div class="Balance">
-          <label for="readonlyField">Balance:</label>
-          <input type="text" id="readonlyField" name="readonlyField" value="$100" readonly>
-          <br>
+    <main class="main">
+      <section class="wallet-section">
+        <div class="wallet">
+          <h1 class="wallet-title">Wallet</h1>
+          <img src="imgs/creditCard-removebg.png" alt="Logo" class="card">
+          <div class="Balance">
+            <label>Balance:</label>
+            <input type="text" id="readonlyField" name="readonlyField" value="$100" readonly>
+          </div>
         </div>
-      </div>
-
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
