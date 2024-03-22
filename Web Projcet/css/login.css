@@ -1,0 +1,70 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    place-items: center;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: var(--white-Color);
+    background: var(--button-bgcolor);
+    border: none;
+    padding: 0.4rem;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: rgb(0, 145, 194);
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    height: 50%;
+    line-height: 1.5rem;
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+    font-size: clamp(1rem, 1vw, 2rem);
+
+    header {
+        text-align: center;
+        img {
+            height: 35%;
+            width: 35%;
+        }
+    }
+
+    main {
+        form {
+            fieldset{
+                border: none;
+                padding: 3rem;
+                div{
+                    padding: 0.4rem;
+                    label{
+                        font-size: x-large;
+                        font-weight: bold;
+                    }
+                }
+                
+            }
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            place-items: center;
+            text-align: center;
+            padding: 5rem;
+        }
+    }
+
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    line-height: 1.5rem;
+    font-size: clamp(1rem, 1vw, 2rem);
+    gap: 1rem;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header "
+        "nav "
+        "main ";
+ h1 {
+        padding: 2rem;
+        text-align: center;
+        place-items: center;
+    }
+    header {
+        text-align: center;
+        grid-area: header;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+
+        .mainLogo {
+            width: 150px;
+        }
+
+        .logos-container {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            gap: 1rem;
+
+            .logos {
+                border: 2px solid black;
+                padding: 0.2rem;
+
+                .logo {
+                    width: 1.5rem;
+                    height: auto;
+                }
+
+                .label {
+                    font-size: 1rem;
+                    text-align: center;
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+
+        .search-container {
+            margin-top: 2.5rem;
+
+            .search-input {
+                width: 50rem;
+                height: 3rem;
+            }
+
+            .search-button {
+                height: 3rem;
+                width: 5rem;
+                background-color: floralwhite;
+            }
+        }
+    }
+
+    .nav {
+        background-color: palevioletred;
+        grid-area: nav;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            margin: 0rem;
+
+            li {
+                list-style: none;
+                text-align: center;
+                padding: 0.2rem;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 0.8rem;
+            color: white;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            text-decoration-line: underline;
+        }
+    }
+   
+    .mainSection {
+        grid-area: main;
+
+        .wallet-section {
+            display: flex;
+            flex-direction: column;
+
+            .wallet {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                padding: 1rem;
+                gap: 1rem;
+                display: grid;
+                grid-template-rows: repeat(2, auto);
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                grid-gap: 1rem;
+                width: calc(100% - 2rem);
+
+                .Balance {
+                    justify-content: space-evenly;
+                    border: 2px solid #d1d4c5;
+                    border-radius: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2rem;
+
+                    h4 {
+                        font-size: 1.5rem;
+                        text-align: left;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+                        border: 2px solid #d1d4c5;
+                        border-style: dotted;
+                        text-align: left;
+                    }
+
+                    .button-logo {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 40px;
+                            height: auto;
+                            margin-left: 10px;
+                        }
+
+                        button {
+                            width: 100%;
+                            text-align: center;
+                            background-color: rgb(0, 166, 237);
+                            color: white;
+                            padding: 0.2rem 0.3rem;
+                            border-color: rgb(0, 166, 237);
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
