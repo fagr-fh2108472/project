@@ -60,8 +60,6 @@ body {
             }
             background-color: var(--bgcolor);
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            /* place-items: center;
-            text-align: center; */
             padding: 5rem;
             fieldset{
                 border: none;
