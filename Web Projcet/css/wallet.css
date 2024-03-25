@@ -52,7 +52,7 @@ body {
         background-color: var(--bgcolor);
         width: 80%;
         height: 95%;
-        margin: 2rem;
+        margin: 10rem;
         padding: 1.5rem;
         line-height: 2.5rem;
         font-size: clamp(1rem, 1vw, 2rem);
