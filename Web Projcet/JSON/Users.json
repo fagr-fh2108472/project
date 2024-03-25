@@ -6,7 +6,8 @@
         "shipping_address": "123 Main St, City, Country",
         "username": "john_doe",
         "password": "password123",
-        "money_balance": 1000
+        "money_balance": 1000,
+        "sale_history":[]
       },
       {
         "name": "Jane",
@@ -14,7 +15,8 @@
         "shipping_address": "456 Elm St, Town, Country",
         "username": "jane_smith",
         "password": "pass123",
-        "money_balance": 1500
+        "money_balance": 1500,
+        "sale_history":[]
       },
       {
         "name": "Michael",
@@ -22,7 +24,8 @@
         "shipping_address": "789 Oak St, Village, Country",
         "username": "michael_j",
         "password": "mikepass",
-        "money_balance": 800
+        "money_balance": 800,
+        "sale_history":[]
       },
       {
         "name": "Emily",
@@ -30,7 +33,8 @@
         "shipping_address": "101 Pine St, Hamlet, Country",
         "username": "em_brown",
         "password": "emily123",
-        "money_balance": 2000
+        "money_balance": 2000,
+        "sale_history":[]
       },
       {
         "name": "David",
@@ -38,7 +42,8 @@
         "shipping_address": "555 Maple St, Suburb, Country",
         "username": "david_w",
         "password": "wilsonpass",
-        "money_balance": 1200
+        "money_balance": 1200,
+        "sale_history":[]
       },
       {
         "name": "Sarah",
@@ -46,7 +51,8 @@
         "shipping_address": "777 Cedar St, City, Country",
         "username": "sarah_m",
         "password": "sarahpass",
-        "money_balance": 1800
+        "money_balance": 1800,
+        "sale_history":[]
       },
       {
         "name": "Christopher",
@@ -54,7 +60,8 @@
         "shipping_address": "888 Birch St, Town, Country",
         "username": "chris_a",
         "password": "chrispass",
-        "money_balance": 900
+        "money_balance": 900,
+        "sale_history":[]
       },
       {
         "name": "Jessica",
@@ -62,7 +69,8 @@
         "shipping_address": "999 Walnut St, Village, Country",
         "username": "jess_t",
         "password": "taylor123",
-        "money_balance": 1600
+        "money_balance": 1600,
+        "sale_history":[]
       },
       {
         "name": "Daniel",
@@ -70,7 +78,8 @@
         "shipping_address": "222 Pine St, City, Country",
         "username": "dan_t",
         "password": "danpass",
-        "money_balance": 1100
+        "money_balance": 1100,
+        "sale_history":[]
       },
       {
         "name": "Ashley",
@@ -78,7 +87,8 @@
         "shipping_address": "333 Oak St, Town, Country",
         "username": "ash_j",
         "password": "ashpass",
-        "money_balance": 1400
+        "money_balance": 1400,
+        "sale_history":[]
       },
       {
         "name": "Matthew",
@@ -86,7 +96,8 @@
         "shipping_address": "444 Maple St, Village, Country",
         "username": "matt_w",
         "password": "matt123",
-        "money_balance": 700
+        "money_balance": 700,
+        "sale_history":[]
       },
       {
         "name": "Amanda",
@@ -94,7 +105,8 @@
         "shipping_address": "666 Cedar St, City, Country",
         "username": "amanda_h",
         "password": "amandapass",
-        "money_balance": 1300
+        "money_balance": 1300,
+        "sale_history":[]
       },
       {
         "name": "James",
@@ -102,7 +114,8 @@
         "shipping_address": "777 Elm St, Town, Country",
         "username": "james_m",
         "password": "jamespass",
-        "money_balance": 1500
+        "money_balance": 1500,
+        "sale_history":[]
       },
       {
         "name": "Lauren",
@@ -110,7 +123,8 @@
         "shipping_address": "888 Oak St, Village, Country",
         "username": "lauren_t",
         "password": "lauren123",
-        "money_balance": 900
+        "money_balance": 900,
+        "sale_history":[]
       },
       {
         "name": "Ryan",
@@ -118,7 +132,8 @@
         "shipping_address": "999 Maple St, City, Country",
         "username": "ryan_g",
         "password": "ryanpass",
-        "money_balance": 1700
+        "money_balance": 1700,
+        "sale_history":[]
       },
       {
         "name": "Taylor",
@@ -126,7 +141,8 @@
         "shipping_address": "123 Pine St, Town, Country",
         "username": "taylor_r",
         "password": "taylorpass",
-        "money_balance": 1100
+        "money_balance": 1100,
+        "sale_history":[]
       },
       {
         "name": "Kayla",
@@ -134,7 +150,8 @@
         "shipping_address": "456 Elm St, Village, Country",
         "username": "kayla_c",
         "password": "kayla123",
-        "money_balance": 1600
+        "money_balance": 1600,
+        "sale_history":[]
       },
       {
         "name": "Kevin",
@@ -142,7 +159,8 @@
         "shipping_address": "789 Oak St, City, Country",
         "username": "kevin_l",
         "password": "kevinpass",
-        "money_balance": 800
+        "money_balance": 800,
+        "sale_history":[]
       },
       {
         "name": "Megan",
@@ -150,7 +168,8 @@
         "shipping_address": "101 Pine St, Town, Country",
         "username": "megan_w",
         "password": "meganpass",
-        "money_balance": 1400
+        "money_balance": 1400,
+        "sale_history":[]
       },
       {
         "name": "Brandon",
@@ -158,7 +177,8 @@
         "shipping_address": "555 Cedar St, Village, Country",
         "username": "brandon_y",
         "password": "brandonpass",
-        "money_balance": 1200
+        "money_balance": 1200,
+        "sale_history":[]
       },
       {
         "name": "Rachel",
@@ -166,7 +186,8 @@
         "shipping_address": "777 Maple St, City, Country",
         "username": "rachel_k",
         "password": "rachelpass",
-        "money_balance": 1900
+        "money_balance": 1900,
+        "sale_history":[]
       }
     ]
   }
