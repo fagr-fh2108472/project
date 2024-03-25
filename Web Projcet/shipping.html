@@ -19,32 +19,30 @@
         <main class="main">
             <section class="Check-out">
                 <h1>Check out</h1>
-                <div>
-                    <label>Adress</label>
-                    <input type="text" id="adress" name="address" value="">
-                </div>
-                <div>
-                    <h2>Payment</h2>
-                    <div>
-                        <input type="checkbox" id="payment" name="payment">
-                        <label>Wallet</label>
+                <div class="important-info">
+                    <div class="address">
+                        <label>Address:</label>
+                        <input type="text" id="adress" name="address" value="">
                     </div>
-                </div>
-                <div class="item-container" id="item-container">
-                    <section class="main-item">
-                        <div class="item">
-                            <img src="" alt="Toy Image" />
-                            <p>item name</p>
-                            <div class="counter">
-                                <button class="decrement">-</button>
-                                <input type="text" id="readonlyField" name="readonlyField" value="1" readonly>
-                                <button class="increment">+</button>
-                            </div>
+                    <section class="payment">
+                        <h2>Payment:</h2>
+                        <div>
+                            <input type="checkbox" id="payment" name="payment">
+                            <label>Wallet</label>
                         </div>
                     </section>
-                    <div class="buy">
-                        <button>Buy</button>
-                    </div>
+                    <section class="item">
+                        <img src="./images/barbie.jpg" alt="Toy Image" />
+                        <h2>item name</h2>
+                        <div class="counter">
+                            <button class="decrement">-</button>
+                            <input type="text" id="readonlyField" name="readonlyField" value="1" readonly>
+                            <button class="increment">+</button>
+                        </div>
+                </div>
+                <div class="buy">
+                    <button>Buy</button>
+                </div>
             </section>
         </main>
     </div>

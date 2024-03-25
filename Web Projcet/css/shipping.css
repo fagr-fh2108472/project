@@ -43,67 +43,6 @@ button:hover {
     --button-bgcolor: #f3bc18;
 }
 
-main {
-    padding: 2rem;
-    .main-item {
-        border: 2px solid #d1d4c5;
-        padding: 1rem;
-        .item {
-            .item-content {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-top: 1rem;
-                gap: 5rem;
-    
-                .item-left {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    margin-right: 1rem; 
-                    p{
-                        border: 2px solid #d1d4c5;
-                          border-style: dotted;
-                          padding: 1rem;
-                    }
-                    img {
-                        width: 10rem;
-                    }
-                }
-                .item-right{
-                    .price {
-                        font-size: 1.2rem;
-                        padding: 0.5rem;
-                        width: 6rem; 
-                        text-align: center; 
-                        border: 1px solid #ccc; 
-                    }
-                    .counter {
-                        display: flex;
-                        align-items: center;
-                        margin-top: 0.5rem;
-                        button {
-                            background-color: #f4f4f4;
-                            border: 1px solid #ccc;
-                            color: #333;
-                            cursor: pointer;
-                            padding: 0.5rem;
-                            font-size: 1rem;
-                        }
-                        .quantity {
-                            margin: 0 0.5rem;
-                            font-size: 1.2rem;
-                        }
-                    }
-                    
-                }
-            }
-        }
-    }
-    
-}
-
-
 body { 
     display: grid;              
     place-items: center; 
@@ -133,16 +72,18 @@ body {
             }
         }
         .main {
-            .wallet-section {
+            .Check-out{
                 display: grid;              
-                justify-content: center;
+                place-items: center;
                 border-radius: 5%;
                 padding: 1rem;
                 box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-                    .card {
-                        height: 90%;
+                 button{
+                        height: 4rem;
+                        width: 9rem;
                     }
-                    .Balance {
+                .important-info{
+                    .address{
                         justify-content: space-evenly;
                         border: 2px solid #d1d4c5;
                         border-radius: 2rem;
@@ -152,22 +93,77 @@ body {
                         height: 8rem;
                         label{
                             padding: 0.5rem;
-                            font-size: 200%;
+                            font-size: 150%;
                         }
                         input{
                             border-radius: 5%;
                             height: 2.5rem;
-                            font-size: 150%;
+                           
                             padding: 0.5rem;
                             font-family: cursive;
                             text-align: center;
                             background-color: var(--textfield-bgColor) ;
                         }
                     }
+                    .payment{
+                        justify-content: space-evenly;
+                        border: 2px solid #d1d4c5;
+                        border-radius: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 5rem;
+                        height: 8rem;
+                        h2{
+                            padding: 1.5rem;
+                        }
+                        label{
+                            padding: 0.5rem;
+                            font-size: 150%;
+                        }
+                        input{
+                            border-radius: 5%;
+                            height: 1.5rem;
+                            width: 1.5rem;
+                            font-family: cursive;
+                            text-align: center;
+                            background-color: var(--textfield-bgColor) ;
+                        }
+                    }
+                    .item{
+                        border: 2px solid #d1d4c5;
+                        border-radius: 2rem;
+                        padding: 3rem;
+                        height: 15rem;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        place-items: center;
+                        img{
+                            border: 2px solid #d1d4c5;
+                            height: 9rem;
+                            width: 9rem;
+                        }
+                        input{
+                            border-radius: 5%;
+                            height: 2.5rem;
+                            width: 30%;
+                            font-size: 150%;
+                            padding: 0.5rem;
+                            font-family: cursive;
+                            text-align: center;
+                            background-color: var(--textfield-bgColor) ;
+                        }
+                        button{
+                            height: 4rem;
+                            width: 3.5rem;
+                        }
+                    }
+                }
+                
             }
         }
     }
 }
+
 
 
 
