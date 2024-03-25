@@ -1,3 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-family: cursive;
+
+    --s: 150px;
+    background:
+        linear-gradient(135deg, #ff0b0b00 18.75%, #fcf2be 0 31.25%, #0000 0),
+        repeating-linear-gradient(45deg, #fcf2be -6.25% 6.25%, #f9df90 0 18.75%);
+    background-size: var(--s) var(--s);
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    place-items: center;
+    font-size: 400%;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: var(--button-color);
+    border: none;
+    padding: 0.6rem;
+    border-radius: 10%;
+    height: 3.5rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: var(--button-bgcolor);
+}
+
+:root {
+    --textfield-bgColor: #fffef8;
+    --bgcolor: #f9f5de;
+    --button-color: #fbde88;
+    --button-bgcolor: #f3bc18;
+}
+
 .book-form {
     display: grid;
     grid-template-columns: 1fr 4fr;
