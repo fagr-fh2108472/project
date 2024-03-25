@@ -48,19 +48,7 @@ main {
     .main-item {
         border: 2px solid #d1d4c5;
         padding: 1rem;
-        max-width: 500px; 
-        margin: 0 auto;
-        
         .item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            h3 {
-                margin: 1rem;
-                font-size: 1.8rem;
-                text-align: center;
-            }
-    
             .item-content {
                 display: flex;
                 justify-content: space-between;
